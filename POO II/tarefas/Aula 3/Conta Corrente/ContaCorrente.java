@@ -1,4 +1,4 @@
-public class cadastrarConta {
+public class ContaCorrente {
     private String nomeBanco;
     private String nome;
     private long cpf;
@@ -35,11 +35,38 @@ public class cadastrarConta {
         this.chequeEspecial = chequeEspecial;
     }
 
-    public cadastrarConta(String nomeBanco, String nome, long cpf, float saldo, float chequEspecial) {
+    public ContaCorrente(String nomeBanco, String nome,
+         long cpf, float saldo, float chequeEspecial
+        ) {
         this.nomeBanco = nomeBanco;
         this.nome = nome;
         this.cpf = cpf;
         this.saldo = saldo;
-        this.chequeEspecial = chequEspecial;
+        this.chequeEspecial = chequeEspecial;
+    }
+
+    public void cadastrarConta(String nomeBanco, String nome,
+        long cpf, float saldo, float chequeEspecial
+    ) {
+        new ContaCorrente(nomeBanco, nome, cpf, saldo, chequeEspecial);
+    }
+
+    public float depoistar(float valor) {
+        saldo = saldo + valor;
+        return this.saldo;
+    }
+
+    public float sacar(float valor) {
+        saldo = saldo - valor;
+        return this.saldo;
+    }
+
+    public float obterSaldo() {
+        return this.saldo;
+    }
+
+    public String atualizarNomeCliente(String novoNome) {
+        nome = novoNome;
+        return nome;
     }
 }
