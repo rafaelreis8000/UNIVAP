@@ -19,28 +19,28 @@ public class ControleRemoto {
         this.canal = canal;
     }
 
-    public int aumentarVolume(int volume) {
+    public int aumentarVolume() {
         volume += 1;
         return volume;
-    } public int diminuirVolume(int volume) {
+    } public int diminuirVolume() {
         volume -= 1;
         return volume;
     }
 
-    public int passarCanal(int canal) {
+    public int passarCanal() {
         canal += 1;
         return canal;
-    } public int voltarCanal(int canal) {
+    } public int voltarCanal() {
         canal -= 1;
         return canal;
     }
 
-    public int escolherCanal(int canal, int novoCanal) {
+    public int escolherCanal(int novoCanal) {
         canal = novoCanal;
         return canal;
     }
 
-    public int[] mostrarStatus(int volume, int canal) {
+    public int[] mostrarStatus() {
         return new int[] {volume, canal};
     }
 }

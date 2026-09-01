@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="YlrM--sjhGFjiamVVyTX" name="Page-1">
+        <mxGraphModel dx="676" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Ponto2D&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="340" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- x: double&lt;div&gt;- y : double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="340" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2" vertex="1">
+                    <mxGeometry y="60" width="340" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="+ getX(): double&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;+setX(): void&lt;br&gt;&lt;/font&gt;&lt;div&gt;+getY(): double&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+setY(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ calcularDistancia(int x, int y)&lt;/div&gt;&lt;div&gt;+ calcularDistancia(float x, float y)&lt;/div&gt;&lt;div&gt;+ calcularDistancia(double x, double y)&lt;/div&gt;&lt;div&gt;+ calcularDistancia(Ponto2d ponto)&lt;/div&gt;&lt;div&gt;+ calcularDistancia(int x, int y, int x2, int y2)&lt;/div&gt;&lt;div&gt;+ calcularDistancia(float x, float y, float x2, float y2)&lt;/div&gt;&lt;div&gt;+ calcularDistancia(double x, double y, double x2, double y2)&lt;/div&gt;&lt;div&gt;+ calcularDistancia(Ponto2d ponto, Ponto2d ponto2)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="68" width="340" height="252" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Ponto3D" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="350" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="- z: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6">
+                    <mxGeometry y="52" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="+ getZ(): double&lt;div&gt;+setZ(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry y="60" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
